@@ -27,7 +27,7 @@ Scenario: Create and delete article
 
     Given path '/articles/' + articleId
     When method Delete
-    Then status 200
+    Then status 204
 
     Given path '/articles'
     And params { limit: 10, offset: 0 }

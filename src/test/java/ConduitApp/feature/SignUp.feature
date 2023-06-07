@@ -29,7 +29,7 @@ Scenario: SignUp
               "email": #(email),
               "username": '#(username)',
               "bio": null,
-              "image": null,
+              "image": "#string",
               "token": "#string"
             }
         }
